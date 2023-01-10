@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/day18/local-storage/local-storage.css">
+
+</head>
+<body>
+    <div class="inputForm">
+
+        <form onsubmit="addTask(event)">
+          <div>
+            <input id="newTaskInput" />
+            <div>
+              <button type="submit">Add Todo</button>
+            </div>
+          </div>
+        </form>
+        <ul id="todoList"><span id="checkBox"></span></ul>
+    </div>
+    <!-- <div class="inputForm">
+        <form id="form">
+            <input type="text" id="input"><br>
+            <button type="submit" id="submit">add task</button>
+        </form>
+        <ul id="ul"></ul>
+    </div> -->
+    <script src="/day18/local-storage/local-storage.js"></script>
+</body>
+</html>

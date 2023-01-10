@@ -1,0 +1,10 @@
+.inputForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: blue;
+    align-items: center;
+    height: 150px;
+    width: 200px;
+    border: 2px;
+}
